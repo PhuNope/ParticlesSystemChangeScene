@@ -1,0 +1,170 @@
+{
+  "cacheFiles": {
+    "d0d18dcb-2974-4b52-b85d-13df11a1fea5": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\asset-db\\assets\\d0\\d0d18dcb-2974-4b52-b85d-13df11a1fea5\\build\\d0d18dcb-2974-4b52-b85d-13df11a1fea5",
+    "53bebd72-d743-4bb6-9422-169bff28cdc1@f9941": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\asset-db\\assets\\53\\53bebd72-d743-4bb6-9422-169bff28cdc1@f9941\\build\\d0d18dcb-2974-4b52-b85d-13df11a1fea5",
+    "cd73b132-f960-4374-bd43-90266f3945b9@f9941": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\asset-db\\assets\\cd\\cd73b132-f960-4374-bd43-90266f3945b9@f9941\\build\\d0d18dcb-2974-4b52-b85d-13df11a1fea5",
+    "0e8330a7-120f-45e1-a388-ab41ce4f4f4c@f9941": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\asset-db\\assets\\0e\\0e8330a7-120f-45e1-a388-ab41ce4f4f4c@f9941\\build\\d0d18dcb-2974-4b52-b85d-13df11a1fea5",
+    "be2682e6-2bc2-4afa-9c0d-7cdb2e9e04bf@f9941": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\asset-db\\assets\\be\\be2682e6-2bc2-4afa-9c0d-7cdb2e9e04bf@f9941\\build\\d0d18dcb-2974-4b52-b85d-13df11a1fea5"
+  },
+  "sharpMd5": "8c10c",
+  "md5": "e8c6e",
+  "versionDev": "1.0.2",
+  "result": {
+    "atlases": [
+      {
+        "imageUuid": "1af42dbbb",
+        "textureUuid": "1af42dbbb@6c48a",
+        "compressed": {
+          "imagePathNoExt": "",
+          "suffixs": [
+            ".png"
+          ]
+        },
+        "spriteFrameInfos": [
+          {
+            "name": "Fire+Sparks-SpriteSheet",
+            "uuid": "0e8330a7-120f-45e1-a388-ab41ce4f4f4c@f9941",
+            "imageUuid": "0e8330a7-120f-45e1-a388-ab41ce4f4f4c",
+            "textureUuid": "0e8330a7-120f-45e1-a388-ab41ce4f4f4c@6c48a",
+            "file": "D:\\New folder\\ParticlesSystemChangeScene\\assets\\folder\\Fire+Sparks-SpriteSheet.png",
+            "libraryPath": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\builder\\TexturePacker1.0.1\\build\\trimImages\\spritesheet_js_0e8330a7-120f-45e1-a388-ab41ce4f4f4c@f9941_image_0.png",
+            "trim": {
+              "rotatedWidth": 334,
+              "rotatedHeight": 447,
+              "x": 3,
+              "y": 3,
+              "width": 334,
+              "height": 447
+            },
+            "rawWidth": 384,
+            "rawHeight": 480,
+            "width": 340,
+            "height": 453,
+            "originalPath": "D:\\New folder\\ParticlesSystemChangeScene\\library/0e/0e8330a7-120f-45e1-a388-ab41ce4f4f4c.png",
+            "rotated": false,
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 340,
+            "rotatedHeight": 453
+          },
+          {
+            "name": "noiseTexture",
+            "uuid": "be2682e6-2bc2-4afa-9c0d-7cdb2e9e04bf@f9941",
+            "imageUuid": "be2682e6-2bc2-4afa-9c0d-7cdb2e9e04bf",
+            "textureUuid": "be2682e6-2bc2-4afa-9c0d-7cdb2e9e04bf@6c48a",
+            "file": "D:\\New folder\\ParticlesSystemChangeScene\\assets\\folder\\noiseTexture.png",
+            "libraryPath": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\builder\\TexturePacker1.0.1\\build\\trimImages\\spritesheet_js_be2682e6-2bc2-4afa-9c0d-7cdb2e9e04bf@f9941_image_2.png",
+            "trim": {
+              "rotatedWidth": 256,
+              "rotatedHeight": 256,
+              "x": 3,
+              "y": 456,
+              "width": 256,
+              "height": 256
+            },
+            "rawWidth": 256,
+            "rawHeight": 256,
+            "width": 262,
+            "height": 262,
+            "originalPath": "D:\\New folder\\ParticlesSystemChangeScene\\library/be/be2682e6-2bc2-4afa-9c0d-7cdb2e9e04bf.png",
+            "rotated": false,
+            "x": 0,
+            "y": 453,
+            "rotatedWidth": 262,
+            "rotatedHeight": 262
+          },
+          {
+            "name": "1",
+            "uuid": "53bebd72-d743-4bb6-9422-169bff28cdc1@f9941",
+            "imageUuid": "53bebd72-d743-4bb6-9422-169bff28cdc1",
+            "textureUuid": "53bebd72-d743-4bb6-9422-169bff28cdc1@6c48a",
+            "file": "D:\\New folder\\ParticlesSystemChangeScene\\assets\\folder\\1.png",
+            "libraryPath": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\builder\\TexturePacker1.0.1\\build\\trimImages\\spritesheet_js_53bebd72-d743-4bb6-9422-169bff28cdc1@f9941_image_1.png",
+            "trim": {
+              "rotatedWidth": 162,
+              "rotatedHeight": 254,
+              "x": 3,
+              "y": 718,
+              "width": 162,
+              "height": 254
+            },
+            "rawWidth": 162,
+            "rawHeight": 254,
+            "width": 168,
+            "height": 260,
+            "originalPath": "D:\\New folder\\ParticlesSystemChangeScene\\library/53/53bebd72-d743-4bb6-9422-169bff28cdc1.png",
+            "rotated": false,
+            "x": 0,
+            "y": 715,
+            "rotatedWidth": 168,
+            "rotatedHeight": 260
+          },
+          {
+            "name": "5",
+            "uuid": "cd73b132-f960-4374-bd43-90266f3945b9@f9941",
+            "imageUuid": "cd73b132-f960-4374-bd43-90266f3945b9",
+            "textureUuid": "cd73b132-f960-4374-bd43-90266f3945b9@6c48a",
+            "file": "D:\\New folder\\ParticlesSystemChangeScene\\assets\\folder\\5.png",
+            "libraryPath": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\builder\\TexturePacker1.0.1\\build\\trimImages\\spritesheet_js_cd73b132-f960-4374-bd43-90266f3945b9@f9941_image_3.png",
+            "trim": {
+              "rotatedWidth": 162,
+              "rotatedHeight": 254,
+              "x": 171,
+              "y": 718,
+              "width": 162,
+              "height": 254
+            },
+            "rawWidth": 162,
+            "rawHeight": 254,
+            "width": 168,
+            "height": 260,
+            "originalPath": "D:\\New folder\\ParticlesSystemChangeScene\\library/cd/cd73b132-f960-4374-bd43-90266f3945b9.png",
+            "rotated": false,
+            "x": 168,
+            "y": 715,
+            "rotatedWidth": 168,
+            "rotatedHeight": 260
+          }
+        ],
+        "width": 340,
+        "height": 975,
+        "name": "auto-atlas-0",
+        "imagePath": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\builder\\TexturePacker1.0.1\\preview\\d0d18dcb-2974-4b52-b85d-13df11a1fea5\\1af42dbbb.png"
+      }
+    ],
+    "options": {
+      "name": "auto-atlas",
+      "width": 1024,
+      "height": 1024,
+      "destDir": "D:\\New folder\\ParticlesSystemChangeScene\\temp\\builder\\TexturePacker1.0.1\\preview\\d0d18dcb-2974-4b52-b85d-13df11a1fea5",
+      "maxWidth": 1024,
+      "maxHeight": 1024,
+      "padding": 2,
+      "allowRotation": true,
+      "forceSquared": false,
+      "powerOfTwo": false,
+      "algorithm": "MaxRects",
+      "format": "png",
+      "quality": 80,
+      "contourBleed": true,
+      "paddingBleed": true,
+      "filterUnused": true,
+      "removeTextureInBundle": true,
+      "removeImageInBundle": true,
+      "removeSpriteAtlasInBundle": true,
+      "compressSettings": {
+        "useCompressTexture": false
+      },
+      "textureSetting": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "bleed": 1
+    },
+    "unpackedImages": []
+  }
+}
