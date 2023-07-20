@@ -1,66 +1,42 @@
-import { _decorator, Component, Node, Sprite, SpriteFrame, tween, Vec2, Vec3 } from 'cc';
+import { _decorator, Component, misc, Node, Quat, Sprite, SpriteFrame, Tween, tween, Vec2, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('controller2')
 export class controller2 extends Component {
 
     @property(Node)
-    card1: Node;
-    @property(Node)
-    card2: Node;
-
-    @property(SpriteFrame)
-    front: SpriteFrame;
-
-    @property(SpriteFrame)
-    back: SpriteFrame;
+    card: Node = null;
 
     start() {
         let that = this;
-        tween({ scale: 1 })
-            .parallel(
-                tween({ scale: 1 })
-                    .to(1.5, { scale: 0 }, {
-                        onUpdate(target: { scale: number; }, ratio) {
-                            that.card1.setScale(new Vec3(target.scale, 1, 1));
-                            if (target.scale <= 0.2) {
-                                that.card1.getComponent(Sprite).spriteFrame = that.back;
-                            } else {
-                                that.card1.getComponent(Sprite).spriteFrame = that.front;
-                            }
-                        },
-                    })
-                    .to(1.5, { scale: 1 }, {
-                        onUpdate(target: { scale: number; }, ratio) {
-                            that.card1.setScale(new Vec3(target.scale, 1, 1));
-                            if (target.scale <= 0.2) {
-                                that.card1.getComponent(Sprite).spriteFrame = that.back;
-                            } else {
-                                that.card1.getComponent(Sprite).spriteFrame = that.front;
-                            }
-                        },
-                    })
-                    .start(),
+        this.card._uiProps.uiTransformComp.setAnchorPoint(new Vec2(0.5, 1));
+        let x = 300;
+        tween({ x: 300, y: 0 })
+            .to(5, { x: 0, y: 600 }, {
+                onUpdate(target: { x: number, y: number; }, ratio) {
+                    let x = target.x * Math.sin(misc.degreesToRadians(target.y * 2.5));
+                    that.card.position = new Vec3(x, target.y, 0);
 
-                tween({ scale: 0.8 })
-                    .to(1, { scale: 0.2 }, {
-                        onUpdate(target: { scale: number; }, ratio) {
-                            that.card2.setScale(new Vec3(target.scale, 1, 1));
-                        },
-                    })
-                    .to(1, { scale: 0.8 }, {
-                        onUpdate(target: { scale: number; }, ratio) {
-                            that.card2.setScale(new Vec3(target.scale, 1, 1));
-                        },
-                    })
-                    .start()
-            )
-            .repeatForever()
+                    that.changeAngle(new Vec3(0, 600, 0), that.card);
+                },
+            })
             .start();
+    }
+
+    changeAngle(direct: Vec3, target: Node) {
+        let angle = Vec3.angle(new Vec3(0, 1, 0), direct.subtract(target.position));
+        angle = misc.radiansToDegrees(angle);
+        direct.x < target.position.x ? angle = angle : angle = -angle;
+
+        target.angle = angle;
     }
 
     update(deltaTime: number) {
 
+    }
+
+    protected onDestroy(): void {
+        Tween.stopAll();
     }
 }
 
